@@ -1,0 +1,26 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  color: #eee;
+  background-color: #222;
+  /* background-color: #60b347; */
+}
+
+/* LAYOUT */
+header {
+  text-align: center;
+  position: relative;
+  height: 35vh;
+}
+
+.range {
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+}

@@ -7,23 +7,25 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <h1>Guess the Winning Number</h1>
-      <div class="range">1-20</div>
+      <div class="range">Guess between 1-20</div>
+      <div class="number">?</div>
     </header>
+    <div class="main">
     <section class="left">
-        <input class="number"></input>
-        <button class='guess'>Guess</button>
+        <input class="guess"></input>
+        <button class='check'>Guess</button>
     </section>
     <section class = 'right'>
         <div class='message'>Start guessing...</div>
         <div class='score-label'>Your score: <span class="score">20</span></div>
         <div class='highScore-label'>High score: <span class="high-score"></span></div>
     </section>
-
-    <script src="" async defer></script>
+    </div>
+    <script src="script.js" async defer></script>
   </body>
 </html>
