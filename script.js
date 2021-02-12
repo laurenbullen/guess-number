@@ -15,9 +15,15 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guess === secretNumber) {
     document.querySelector(".message").textContent =
       "You guessed the correct number!";
+    score++;
+    document.querySelector(".score").textContent = score;
   } else if (guess > secretNumber) {
     document.querySelector(".message").textContent = "Your guess was too high";
+    score--;
+    document.querySelector(".score").textContent = score;
   } else if (guess < secretNumber) {
     document.querySelector(".message").textContent = "Your guess was too low";
+    score--;
+    document.querySelector(".score").textContent = score;
   }
 });
